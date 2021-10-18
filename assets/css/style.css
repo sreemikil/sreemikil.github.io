@@ -1082,3 +1082,26 @@ body {
       font-weight: 700;
       text-decoration: none;
     }
+
+
+    .h_gallery_item .g_item_text .btn {
+      border: 2px solid #332256;
+      background-color: white;
+      color: #332256;
+      padding: 12px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 24px;
+    }
+
+
+    .h_gallery_item .g_item_text .danger {
+      border-color: #332256;
+      color: #332256;
+    }
+
+    .h_gallery_item .g_item_text .danger:hover {
+      background: #332256;
+      color: white;
+    }
