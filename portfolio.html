@@ -39,7 +39,7 @@
 	
 
 	.main-section.ux-about-section1 {
-	background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.966) -12.01%, rgba(255, 255, 255, 0.904)112.26%), url('assets/bg/try.png');
+	background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.89) -12.01%, rgba(255, 255, 255, 0.897)112.26%), url('assets/bg/try.png');
     padding-top: 10px;
     background-position: 0 0,50% 50%,50% 50%;
     background-size: auto,cover,cover;
@@ -130,13 +130,12 @@
 
 .h_gallery_item {
   display: inline-block;
-  margin-bottom: 45px; 
-background-color: #ffffff;
-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
-border-radius: 15px;}
+  margin-bottom: 86px; 
+background-color: #ffffff00;
+border-radius: 8px;}
 
 .h_gallery_item:hover{
-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.116);
+	transform: translateY(-12px);
 transition-duration: .3s;
 }
 
@@ -144,8 +143,8 @@ transition-duration: .3s;
     position: relative;
     text-align: center;
     overflow: hidden;
-    padding: 18px 18px;
-    border-radius: 5px; }
+    padding: 0px 0px;
+    border-radius: 8px; }
     .h_gallery_item .g_img_item:before {
       content: "";
       width: 100%;
@@ -166,7 +165,8 @@ transition-duration: .3s;
       opacity: 0; }
   .h_gallery_item .g_item_text {
     text-align: left;
-	margin-left: 18px;
+	margin-left: 0px;
+	margin-top: 24px;
 	}
     .h_gallery_item .g_item_text h4 {
       color:#5D4788;
@@ -237,7 +237,10 @@ transition-duration: .3s;
 a:hover { text-decoration: none; }
 
 
-
+@media screen and (max-width: 579px) {
+	.toolsimg {
+  min-width: 90%; }
+}
 	
 </style>
 
@@ -341,7 +344,6 @@ a:hover { text-decoration: none; }
 		<div class="container">
 			<div class="gallery_f_inner row imageGallery1">
 
-				<a class="linkad" href="01ctracker.html">
 					<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
 						<div class="h_gallery_item">
 							<div class="g_img_item">
@@ -351,48 +353,27 @@ a:hover { text-decoration: none; }
 								<h4>Ctracker</h4>
 								<p>Flutter app design</p>
 								<a class="linkad" href="01ctracker.html">
-									<h5 style="color:#332256;">View project <img src="assets/svg/chevron_right.svg" width="18" alt="" class="cta-icon" /></h5>
+									<button class="btn danger">View Project</button>
 								</a>
 							</div>
 						</div>
 					</div>
-				</a>
 
-				<a class="linkad" href="WhatsappCS.html">
 					<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
 						<div class="h_gallery_item">
 							<div class="g_img_item">
-								<img class="img-fluid" src="img/gallery/whspp.png" alt="">
+								<img class="img-fluid" src="img/gallery/wrk4 (1).jpg" alt="">
 							</div>
 							<div class="g_item_text">
 								<h4>Whatsapp - Casestudy</h4>
 								<p>Case Study</p>
 								<a class="linkad" href="WhatsappCS.html">
-									<h5 style="color:#332256;">View project <img src="assets/svg/chevron_right.svg" width="18" alt="" class="cta-icon" /></h5>
+									<button class="btn danger">View Project</button>
 								</a>
 							</div>
 						</div>
 					</div>
-				</a>
 
-				
-				<a class="linkad" href="02ttclub.html">
-					<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
-						<div class="h_gallery_item">
-							<div class="g_img_item">
-								<img class="img-fluid" src="img/gallery/wrk21.png" alt="">
-							</div>
-							<div class="g_item_text">
-								<h4>TTCLUB</h4>
-								<p>Freelance work</p>
-								<a class="linkad" href="02ttclub.html">
-									<h5 style="color:#332256;">View project <img src="assets/svg/chevron_right.svg" width="18" alt="" class="cta-icon" /></h5>
-								</a>
-							</div>
-						</div>
-					</div>
-				</a>
-				<a class="linkad" href="03livangle.html">
 					<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
 						<div class="h_gallery_item">
 							<div class="g_img_item">
@@ -402,13 +383,27 @@ a:hover { text-decoration: none; }
 								<h4>Livangle</h4>
 								<p>Frelance work</p>
 								<a class="linkad" href="03livangle.html">
-									<h5 style="color:#332256;">View project <img src="assets/svg/chevron_right.svg" width="18" alt="" class="cta-icon" /></h5>
+									<button class="btn danger">View Project</button>
 								</a>
 							</div>
 						</div>
 					</div>
-				</a>
-				<a class="linkad" href="04loyality.html">
+
+					<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+						<div class="h_gallery_item">
+							<div class="g_img_item">
+								<img class="img-fluid" src="img/gallery/wrk21.png" alt="">
+							</div>
+							<div class="g_item_text">
+								<h4>Airline</h4>
+								<p>Freelance work</p>
+								<a class="linkad" href="02ttclub.html">
+									<button class="btn danger">View Project</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				
 					<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
 						<div class="h_gallery_item">
 							<div class="g_img_item">
@@ -418,28 +413,27 @@ a:hover { text-decoration: none; }
 								<h4>Loyality App</h4>
 								<p>Intern work</p>
 								<a class="linkad" href="04loyality.html">
-									<h5 style="color:#332256;">View project <img src="assets/svg/chevron_right.svg" width="18" alt="" class="cta-icon" /></h5>
+									<button class="btn danger">View Project</button>
 								</a>
 							</div>
 						</div>
 					</div>
-				</a>
-				<a class="linkad" href="medical.html">
+
+
 					<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
 						<div class="h_gallery_item">
 							<div class="g_img_item">
-								<img class="img-fluid" src="img/gallery/wrk5.jpg" alt="">
+								<img class="img-fluid" src="img/gallery/medi.png" alt="">
 							</div>
 							<div class="g_item_text">
-								<h4>Medical App Design</h4>
-								<p>Freelancing</p>
+								<h4>Pharmacy</h4>
+								<p>Intern work</p>
 								<a class="linkad" href="#">
-									<h5 style="color:#332256;">View project <img src="assets/svg/chevron_right.svg" width="18" alt="" class="cta-icon" /></h5>
+									<button class="btn danger">View Project</button>
 								</a>
 							</div>
 						</div>
 					</div>
-				</a>
 			</div>
 			
 		</div>
